@@ -12,7 +12,7 @@ import time
 # const
 VERSION = 1.1
 CONFIG_DIR = './configs'
-LOG_FILE = './logs/log.txt'
+LOG_FILE = './logs/strategy_log.txt'
 DIVIDER = '=' * os.get_terminal_size().columns
 SOURCE = 'close'
 
