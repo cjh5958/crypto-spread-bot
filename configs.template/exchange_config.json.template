@@ -1,0 +1,26 @@
+{
+    "demo_trade": false,
+    "api": {
+        "telegram": {
+            "key": "CHAT KEY",
+            "chat_id": "CHAT ID"
+        },
+        "bybit": {
+            "apiKey": "API KEY",
+            "secret": "API SECRET",
+            "enableRateLimit": true,
+            "options": {
+                "defaultType": "future"
+            }
+        },
+        "okx": {
+            "NOT SUPPROTED": "NOT SUPPROTED"
+        },
+        "binance": {
+            "NOT SUPPROTED": "NOT SUPPROTED"
+        },
+        "bingx": {
+            "NOT SUPPROTED": "NOT SUPPROTED"
+        }
+    }
+}

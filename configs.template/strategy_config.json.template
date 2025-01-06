@@ -1,0 +1,19 @@
+{
+    "source": "close",
+    "monitor_interval": 60,
+    "leverage": 10,
+    "trading_pairs": {
+        "MOODENG/USDT:USDT": {
+            "long_amount_usdt": 30,
+            "short_amount_usdt": 30,
+            "value_multiplier": 3,
+            "ema": 240
+        },
+        "1000X/USDT:USDT": {
+            "long_amount_usdt": 30,
+            "short_amount_usdt": 30,
+            "value_multiplier": 3,
+            "ema": 240
+        }
+    }
+}
