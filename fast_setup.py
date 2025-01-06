@@ -2,6 +2,12 @@ import os
 import json
 
 if __name__ == "__main__":
+    print("-- Fast setup session started. --")
+
+    api_key = input("YOUR API KEY: ")
+    api_secret = input("YOUR API SECRET: ")
+    demo_trade = True if input("Enable demo trading?(Y/N): ").lower() == 'y' else False
+    
     configs_dir = os.path.join(os.path.curdir, "configs.template")
 
     if os.path.exists(configs_dir):
@@ -19,10 +25,6 @@ if __name__ == "__main__":
 
     else:   # os.path.exists(configs_dir)
         raise OSError("`configs.template` does not exist.")
-
-    api_key = input("YOUR API KEY: ")
-    api_secret = input("YOUR API SECRET: ")
-    demo_trade = True if input("Enable demo trading?(Y/N): ").lower() == 'y' else False
 
     with open("./configs/exchange_config.json", "r+", encoding="utf-8") as F:
         config = json.load(F)

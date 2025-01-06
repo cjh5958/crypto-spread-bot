@@ -1,4 +1,5 @@
 {
+    "source": "close",
     "monitor_interval": 60,
     "leverage": 10,
     "trading_pairs": {

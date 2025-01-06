@@ -7,5 +7,9 @@
     "low_trail_enable_threshold": 0.3,
     "first_trail_enable_threshold": 0.8,
     "second_trail_enable_threshold": 2,
-    "blacklist": ["BTC/USDT:USDT", "ETH/USDT:USDT", "SOL/USDT:USDT"]
+    "blacklist": [
+        "BTC/USDT:USDT", 
+        "ETH/USDT:USDT", 
+        "SOL/USDT:USDT"
+    ]
 }
