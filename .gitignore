@@ -173,3 +173,6 @@ cython_debug/
 # Configuration file
 configs
 logs
+
+# IDE configuration file
+.vscode

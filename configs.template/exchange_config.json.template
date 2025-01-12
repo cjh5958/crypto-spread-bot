@@ -9,6 +9,7 @@
             "apiKey": "API KEY",
             "secret": "API SECRET",
             "enableRateLimit": true,
+            "verbose": false,
             "options": {
                 "defaultType": "future"
             }
